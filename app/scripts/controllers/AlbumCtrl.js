@@ -4,7 +4,7 @@
     for (var i=0; i < 12; i++) {
         this.albums.push(angular.copy(albumPicasso));
     }
-  }
+
   var albumData = albumPicasso = {
   	title: 'The Colours',
   	artist: 'Pablo Picasso',
@@ -18,7 +18,8 @@
   	 { title: 'Pink', duration: '153.14', audioUrl: 'assets/music/pink' },
   	 { title: 'Magenta', duration: '374.22', audioUrl: 'assets/music/magenta' }
   	]
-    albumData();
+  albumData();
+}
   };
 
   angular
