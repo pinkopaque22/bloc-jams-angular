@@ -1,7 +1,6 @@
 (function() {
   function AlbumCtrl(Fixtures) {
     this.albumData = Fixtures.getAlbum();
-    }
 
   var albumData = albumPicasso = {
   	title: 'The Colours',
@@ -16,8 +15,8 @@
   	 { title: 'Pink', duration: '153.14', audioUrl: 'assets/music/pink' },
   	 { title: 'Magenta', duration: '374.22', audioUrl: 'assets/music/magenta' }
   	]
-}
-  };
+  }
+};
 
   angular
       .module('blocJams')
